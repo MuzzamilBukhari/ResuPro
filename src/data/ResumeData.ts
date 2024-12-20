@@ -4,7 +4,13 @@ import Education from "@/types/Education";
 import Project from "@/types/Project";
 
 type Template1 = {
-  header: {};
+  header: {
+    name: string;
+    email: string;
+    phone: string;
+    github: string;
+    linkedin: string;
+  };
   skills: string[];
   education: Education[];
   projects: Project[];
