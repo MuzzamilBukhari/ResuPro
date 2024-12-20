@@ -11,6 +11,6 @@ type Template1 = {
   certificates: Certificate[];
 };
 
-export const ResumeData: Template1 | {} = {};
+export const ResumeData: Template1 | null = null;
 
 export { Template1 };
